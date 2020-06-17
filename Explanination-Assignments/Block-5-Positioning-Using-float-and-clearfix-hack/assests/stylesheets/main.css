@@ -1,0 +1,122 @@
+@import url(./reset.css);
+
+/* globals */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+nav a:hover,
+a:hover {
+    color: #0ff000;
+}
+
+/* header */
+
+header,
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.logo,
+.nav {
+    float: left;
+    margin: 20px calc((100% - 90%)/4);
+    text-align: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.nav {
+    width: 60%;
+    padding-left: 40px;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.logo a,
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.logo a {
+    font-size: 42px;
+    border: 2px dashed #f0f0f0;
+}
+
+.nav {
+    font-size: 24px;;
+}
+
+
+/* Main */
+
+main {
+    color: black;
+}
+
+.blog-article {
+    margin: 20px 0;
+}
+
+.col {
+    float: left;
+    width: 30%;
+    margin: 0 calc((100% - 90%)/6);
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article-para {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 12px 0;
+}
+
+.read-more {
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 25px;
+    color: #00a;
+    text-transform: uppercase;
+    margin: 18px 0;
+}
+
+/* footer */
+
+footer {
+    padding: 10px 0;
+}
+
+.copy-right {
+    font-size: 20px;
+}
+
+/* clear-fix hack */
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
