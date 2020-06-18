@@ -77,8 +77,8 @@ main {
 
 .col {
     float: left;
-    width: 30%;
-    margin: 0 calc((100% - 90%)/6);
+    width: calc(33.33% - 40px);
+    margin: 0 20px;
 }
 
 .article-image {
