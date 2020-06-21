@@ -124,6 +124,7 @@ p {
     display: inline-block;
     margin: 20px 0;
     padding: 5px 10px;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     background-color: var(--color-blue);
@@ -257,4 +258,8 @@ footer small {
 .social-connect li {
     display: inline-block;
     padding: 0 10px;
+}
+
+.social-connect a {
+    color: black;
 }
