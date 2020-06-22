@@ -97,7 +97,7 @@ p {
     font-weight: 300;
 }
 
-.header-section-infos p {
+.hero-section p {
     padding: 20px 0 120px;
     font-size: 14px;
     font-weight: 200;
@@ -109,7 +109,7 @@ p {
 
 .logo a,
 .main-nav__items__item a,
-.section-1 a {
+.article-section a {
     text-decoration: none;
     color: var(--color-white);
 }
@@ -119,8 +119,8 @@ p {
     font-weight: 100;
 }
 
-.section-1 a,
-.section-3 button {
+.article-section a,
+.blog-section button {
     display: inline-block;
     margin: 20px 0;
     padding: 5px 10px;
@@ -157,7 +157,7 @@ header {
     padding: 0 12px;
 }
 
-.header-section-infos {
+.hero-section {
     text-align: center;
     color: var(--color-white);
 }
@@ -166,31 +166,32 @@ header {
     Main
 ===================================== */
 
-.main-section {
-    margin: 60px auto;
+.section {
+    margin: 10px auto;
+    padding: 60px 0;
 }
 
-.section-1 h3 {
+.article-section h3 {
     color: var(--color-blue);
     margin-bottom: 12px;
 }
 
-.section-1 p {
+.article-section p {
     color: var(--color-gray);
 }
 
-.section-2 {
+.team-section {
     background-color: var(--color-blue);
     color: var(--color-white);
     padding: 60px 0;
 }
 
-.section-2,
-.section-3 {
+.team-section,
+.blog-section {
     text-align: center;
 }
 
-.section-2 p {
+.team-section p {
     font-weight: 100;
     margin: 10px 0;
 }
@@ -209,30 +210,29 @@ header {
     border-radius: 50%;
 }
 
-.section-3 {
-    padding: 25px;
+.blog-section {
     color: var(--color-blue);
     margin-bottom: 10px;
 }
 
-.section-3 article {
+.blog-section article {
     text-align: left;
 }
 
-.section-3 h2 {
+.blog-section h2 {
     margin: 15px 0;
 }
 
-.section-3 p {
+.blog-section p {
     color: var(--color-gray);
     margin: 15px 0;
 }
 
-.section-3 img {
+.blog-section img {
     width: 100%;
 }
 
-.section-3 button {
+.blog-section button {
     font-size: 18px;
 }
 
